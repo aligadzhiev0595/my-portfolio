@@ -266,7 +266,7 @@ li {
   margin-bottom: 20px;
 }
 
-.skills .row .col .wrapper {
+.skills .wrapper {
   min-height: 313px;
   background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0) 100%);
   margin-bottom: 20px;
@@ -276,30 +276,30 @@ li {
   padding: 30px;
 }
 
-.skills .row .col .wrapper:hover {
+.skills .wrapper:hover {
   -webkit-box-shadow: 0px 0px 101px 1px #82d9f9;
   box-shadow: 0px 0px 101px 1px #82d9f9;
 }
 
-.skills .row .col .wrapper__img {
+.skills .wrapper__img {
   width: 60px;
   height: 60px;
 }
 
-.skills .row .col .wrapper__img:hover {
+.skills .wrapper__img:hover {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
-.skills .row .col .wrapper__title {
+.skills .wrapper__title {
   color: #fff;
   font-weight: bold;
   margin-top: 20px;
 }
 
-.skills .row .col .wrapper__subtitle {
+.skills .wrapper__subtitle {
   color: #fff;
   margin-top: 15px;
   text-align: left;
