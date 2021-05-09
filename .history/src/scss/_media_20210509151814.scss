@@ -31,24 +31,22 @@
 
     .about-me {
         padding-bottom: 30px;
-
         .col {
             &:last-child {
                 margin-top: 20px;
             }
         }
-
-        .row {
-            .col {
-
+        .row{
+            .col{
+                
                 .wrapper {
                     padding: 0;
                     margin-bottom: 30px;
-
+        
                     &__subtitle {
                         text-align: center;
                     }
-
+        
                     &__btn {
                         margin-left: 80px;
                     }
@@ -58,10 +56,6 @@
     }
 
     .portfolio {
-        &__title {
-            padding-bottom: 10px;
-
-        }
 
         div#carousel2 {
             perspective: 1200px;
@@ -88,8 +82,6 @@
     }
 
     .skills {
-        padding-bottom: 20px;
-
         .wrapper {
             padding: 30px;
 
@@ -117,9 +109,5 @@
                 text-align: center;
             }
         }
-    }
-
-    .experience {
-        padding-bottom: 25px;
     }
 }

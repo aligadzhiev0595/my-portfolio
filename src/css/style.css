@@ -185,6 +185,10 @@ li {
           justify-content: flex-end;
 }
 
+.about-me .row .col .wrapper {
+  padding: 10px;
+}
+
 .about-me .row .col .wrapper__subtitle {
   color: #fff;
   margin-top: 50px;
@@ -946,17 +950,24 @@ li {
   .react-animation .row .col .wrapper {
     margin-left: 55px;
   }
+  .about-me {
+    padding-bottom: 30px;
+  }
   .about-me .col:last-child {
     margin-top: 20px;
   }
-  .about-me .wrapper {
+  .about-me .row .col .wrapper {
+    padding: 0;
     margin-bottom: 30px;
   }
-  .about-me .wrapper__subtitle {
+  .about-me .row .col .wrapper__subtitle {
     text-align: center;
   }
-  .about-me .wrapper__btn {
+  .about-me .row .col .wrapper__btn {
     margin-left: 80px;
+  }
+  .portfolio__title {
+    padding-bottom: 10px;
   }
   .portfolio div#carousel2 {
     -webkit-perspective: 1200px;
@@ -980,6 +991,9 @@ li {
     -webkit-transform-origin: 50% 50% -500px;
             transform-origin: 50% 50% -500px;
     outline: 1px solid transparent;
+  }
+  .skills {
+    padding-bottom: 20px;
   }
   .skills .wrapper {
     padding: 30px;
@@ -1005,6 +1019,9 @@ li {
     color: #fff;
     margin-top: 15px;
     text-align: center;
+  }
+  .experience {
+    padding-bottom: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
