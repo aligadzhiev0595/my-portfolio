@@ -1,0 +1,57 @@
+.carousel{
+    .flex-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .slider-wrapper{
+        max-width: 800px;
+        width: 100%;
+        height: 490px;
+        position: relative;
+        box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0);
+    }
+    #btn-prev, #btn-next{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 50px;
+        background: gray;
+        opacity: 0.4;
+        cursor: pointer;
+        transition: opacity .2s ease-in-out;
+    }
+    #btn-prev{
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+    #btn-next{
+        left: auto;
+        right: 0;
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+    .slide{
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    .slide.active{
+        display: block;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .dots-wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .dot.active{
+        background: #000;
+    }
+}
