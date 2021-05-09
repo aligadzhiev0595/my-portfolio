@@ -1,0 +1,65 @@
+.header {
+    padding: 5px 0;
+    &_sticky{
+        background: rgb(52, 61, 75);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    }
+    .nav {
+      
+        width: 100%;
+        max-width: 1220px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__brand {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            background: #fff;
+            border-radius: 50%;
+            &:hover{
+                -webkit-box-shadow: 0px 0px 101px 1px rgba(130,217,249,1);
+                -moz-box-shadow: 0px 0px 101px 1px rgba(130,217,249,1);
+                box-shadow: 0px 0px 101px 1px rgba(130,217,249,1);
+                background: rgba(130,217,249,1);
+            }
+        }
+
+        &__img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+        }
+
+        &__list {
+            display: flex;
+            margin-bottom: 0;
+        }
+        
+        &__item {
+            margin-right: 15px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &__link {
+            color: #fff;
+            &:hover{  
+                color: rgba(130,217,249,1);
+            }
+        }
+
+        &__phone {
+            color: #fff;
+            &:hover{
+                color: rgba(130,217,249,1);
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.react-animation{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .row{
+      padding-top: 70px;
+
+      .col{
+       
+        margin-right: 10px;
+        &:last-child{
+          margin-right: 0;
+        }
+        .wrapper{
+          margin-left: 20px;
+          &__logo {
+            width: 250px;
+            height: 250px;
+            animation: React infinite 20s linear;
+          }
+           
+          @keyframes React {
+            from {
+              transform: rotate(0deg);
+            }
+            to {
+              transform: rotate(360deg);
+            }
+          }    
+        }
+      }
+    }    
+}
