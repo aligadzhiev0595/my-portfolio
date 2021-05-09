@@ -1,0 +1,40 @@
+@import url(../libs/mdb-ui-kit/css/mdb.min.css);
+@import url(../libs/fontawesome/css/all.min.css);
+
+
+body {
+  background: rgb(52, 61, 75);
+  color: #1B1818;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Roboto Condensed', sans-serif;
+  // font-family: 'Fire Sans', sans-serif;
+}
+  .container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import '../scss/header';
+@import '../scss/react-animation';
+@import '../scss/about-me';
+@import '../scss/skills';
+@import '../scss/experience';
+@import '../scss/portfolio';
+@import '../scss/footer';
+@import '../scss/footer';

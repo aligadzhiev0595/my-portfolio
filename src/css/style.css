@@ -1,4 +1,5 @@
 @import url(../libs/mdb-ui-kit/css/mdb.min.css);
+@import url(../libs/fontawesome/css/all.min.css);
 body {
   background: #343d4b;
   color: #1B1818;
@@ -117,6 +118,16 @@ li {
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
   background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0) 100%);
+  border-radius: 70px;
+  margin-right: 10px;
+}
+
+.react-animation .row .col:last-child {
+  margin-right: 0;
+}
+
+.react-animation .row .col .wrapper {
+  margin-left: 20px;
 }
 
 .react-animation .row .col .wrapper__logo {
@@ -155,12 +166,14 @@ li {
 .about-me__title {
   margin-bottom: 20px;
   color: #fff;
+  text-align: center;
 }
 
 .about-me .row {
   background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0) 100%);
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border-radius: 70px;
 }
 
 .about-me .row .col {
@@ -218,6 +231,7 @@ li {
 
 .skills__title {
   color: #fff;
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -226,6 +240,7 @@ li {
   margin-bottom: 20px;
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border-radius: 70px;
 }
 
 .skills .row .col:hover {
@@ -268,6 +283,7 @@ li {
 .experience__title {
   color: #fff;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .experience .row .col-12 {
@@ -276,6 +292,7 @@ li {
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
   background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0) 100%);
+  border-radius: 70px;
 }
 
 .experience .row .col-12:hover {
@@ -796,6 +813,7 @@ li {
 .portfolio__title {
   padding-bottom: 20px;
   color: #fff;
+  text-align: center;
 }
 
 .portfolio div#carousel2 {
@@ -809,6 +827,7 @@ li {
   margin-bottom: 3rem;
   overflow: hidden;
   padding-bottom: 10%;
+  border-radius: 70px;
 }
 
 .portfolio figure#spinner {
@@ -907,5 +926,85 @@ li {
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
   color: #fff;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .react-animation .col:nth-child(1) {
+    display: none;
+  }
+  .react-animation .col:nth-child(2) {
+    display: none;
+  }
+  .react-animation .col:nth-child(3) {
+    display: none;
+  }
+  .react-animation .row .col .wrapper {
+    margin-left: 55px;
+  }
+  .about-me .col:last-child {
+    margin-top: 20px;
+  }
+  .about-me .wrapper {
+    margin-bottom: 30px;
+  }
+  .about-me .wrapper__subtitle {
+    text-align: center;
+  }
+  .about-me .wrapper__btn {
+    margin-left: 80px;
+  }
+  .portfolio div#carousel2 {
+    -webkit-perspective: 1200px;
+            perspective: 1200px;
+    -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0) 100%);
+    padding-top: 15%;
+    font-size: 0;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    border-radius: 70px;
+  }
+  .portfolio figure#spinner img {
+    width: 60%;
+    height: 70%;
+    max-width: 425px;
+    position: absolute;
+    left: 22%;
+    top: 10%;
+    -webkit-transform-origin: 50% 50% -500px;
+            transform-origin: 50% 50% -500px;
+    outline: 1px solid transparent;
+  }
+  .skills .wrapper {
+    padding: 30px;
+  }
+  .skills .wrapper__img {
+    width: 60px;
+    height: 60px;
+    margin-left: 40%;
+  }
+  .skills .wrapper__img:hover {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  .skills .wrapper__title {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .skills .wrapper__subtitle {
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
