@@ -18,7 +18,7 @@
             visibility: hidden;
             position: absolute;
             right: 0;
-            top: -5px;
+            top: 0;
             transform: translateY(-50%);
             padding-top: 60px;
             padding-right: 20px;
@@ -54,6 +54,7 @@
                 }
             }
 
+            &__link {}
 
             &__item {
                 margin-right: 0;
@@ -72,7 +73,7 @@
 
         .burger {
             position: fixed;
-            top: 33px;
+            top: 20px;
             transform: translateY(-50%);
             right: 20px;
             width: 26px;
