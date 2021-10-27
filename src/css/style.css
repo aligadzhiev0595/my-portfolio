@@ -838,6 +838,10 @@ li {
   }
 }
 
+.portfolio {
+  display: none;
+}
+
 .portfolio__title {
   padding-bottom: 20px;
   color: #fff;
@@ -936,10 +940,6 @@ li {
 .portfolio div#carousel2 ~ span:hover {
   color: #888;
   cursor: pointer;
-}
-
-.carousel {
-  display: none;
 }
 
 .carousel__title {
