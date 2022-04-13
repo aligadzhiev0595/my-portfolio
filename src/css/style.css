@@ -137,8 +137,8 @@ li {
 .react-animation .row .col .wrapper {
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-  background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0) 100%);
-  border-radius: 70px;
+  background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0.01) 100%);
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -185,7 +185,7 @@ li {
   background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0) 100%);
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-  border-radius: 70px;
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,7 +274,7 @@ li {
   margin-bottom: 20px;
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-  border-radius: 70px;
+  border-radius: 10px;
   padding: 30px;
 }
 
@@ -326,7 +326,7 @@ li {
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
   background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0) 100%);
-  border-radius: 70px;
+  border-radius: 10px;
 }
 
 .experience .row .col-12 .wrapper:hover {
@@ -838,110 +838,6 @@ li {
   }
 }
 
-.portfolio {
-  display: none;
-}
-
-.portfolio__title {
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
-}
-
-.portfolio div#carousel2 {
-  -webkit-perspective: 1200px;
-          perspective: 1200px;
-  -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-  background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0) 100%);
-  padding-top: 10%;
-  font-size: 0;
-  margin-bottom: 3rem;
-  overflow: hidden;
-  padding-bottom: 10%;
-  border-radius: 70px;
-}
-
-.portfolio figure#spinner {
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  height: 300px;
-  -webkit-transform-origin: 50% 50% -500px;
-          transform-origin: 50% 50% -500px;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.portfolio figure#spinner img {
-  width: 40%;
-  height: 100%;
-  max-width: 425px;
-  position: absolute;
-  left: 30%;
-  -webkit-transform-origin: 50% 50% -500px;
-          transform-origin: 50% 50% -500px;
-  outline: 1px solid transparent;
-}
-
-.portfolio figure#spinner a:nth-child(1) img {
-  -webkit-transform: rotateY(0deg);
-          transform: rotateY(0deg);
-}
-
-.portfolio figure#spinner a:nth-child(2) img {
-  -webkit-transform: rotateY(-45deg);
-          transform: rotateY(-45deg);
-}
-
-.portfolio figure#spinner a:nth-child(3) img {
-  -webkit-transform: rotateY(-90deg);
-          transform: rotateY(-90deg);
-}
-
-.portfolio figure#spinner a:nth-child(4) img {
-  -webkit-transform: rotateY(-135deg);
-          transform: rotateY(-135deg);
-}
-
-.portfolio figure#spinner a:nth-child(5) img {
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-}
-
-.portfolio figure#spinner a:nth-child(6) img {
-  -webkit-transform: rotateY(-225deg);
-          transform: rotateY(-225deg);
-}
-
-.portfolio figure#spinner a:nth-child(7) img {
-  -webkit-transform: rotateY(-270deg);
-          transform: rotateY(-270deg);
-}
-
-.portfolio figure#spinner a:nth-child(8) img {
-  -webkit-transform: rotateY(-315deg);
-          transform: rotateY(-315deg);
-}
-
-.portfolio div#carousel2 ~ span {
-  color: #fff;
-  margin: 5%;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 2rem;
-  -webkit-transition: 0.6s color;
-  transition: 0.6s color;
-  position: relative;
-  margin-top: -6rem;
-  border-bottom: none;
-  line-height: 0;
-}
-
-.portfolio div#carousel2 ~ span:hover {
-  color: #888;
-  cursor: pointer;
-}
-
 .carousel__title {
   padding-bottom: 20px;
   color: #fff;
@@ -958,7 +854,7 @@ li {
           justify-content: center;
   -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-  border-radius: 70px;
+  border-radius: 10px;
   background: linear-gradient(95deg, #21242c 0%, rgba(15, 15, 16, 0) 100%);
 }
 
@@ -1075,7 +971,7 @@ li {
     visibility: hidden;
     position: absolute;
     right: 0;
-    top: -5px;
+    top: -10px;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     padding-top: 60px;

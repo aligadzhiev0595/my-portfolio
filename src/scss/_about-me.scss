@@ -1,17 +1,14 @@
 .about-me {
     padding-bottom: 50px;
-
     &__title {
         margin-bottom: 20px;
         color: #fff;
         text-align: center;
-
     }
-
     &__block {
         background: linear-gradient(95deg, rgb(33, 36, 44) 0%, rgba(15, 15, 16, 0) 100%);
         box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-        border-radius: 70px;
+        border-radius: 10px;
         display: flex;
         flex-wrap: wrap;
         padding: 20px 0;
